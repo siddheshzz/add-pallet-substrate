@@ -9,12 +9,12 @@ Mint NFT =>
 - Create a collection from which collection Id is genrated.
 - Call mint with collection id and mint_to
 
-<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/127099d4-4be1-4bb2-b33e-dc90d8772bc9" />
+
 <img width="1512" alt="Image" src="https://github.com/user-attachments/assets/5454ae18-8c1c-4132-b833-3d5bc19cedfd" />
 <img width="1512" alt="Image" src="https://github.com/user-attachments/assets/66442967-19c0-447a-94db-1a348ecad222" />
-<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/97eac63b-83be-4869-b5f7-6bbb6e55d06e" />
+
 <img width="1512" alt="Image" src="https://github.com/user-attachments/assets/51718920-a986-46dd-8829-6067a289fc63" />
-<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/69b1fd70-ae26-4fbf-b9ad-1a63f8ca1a6c" />
+
 
 
 
