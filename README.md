@@ -1,19 +1,18 @@
-# Substrate Node Template
+# Config NFT using Substrate Node Template
+Learning to configure nft pallet to polkadot sdk solochain template.Visit [`here`](https://github.com/paritytech/polkadot-sdk/tree/master/substrate/frame/nfts) to learn more about nft pallet.
+Incorprating actual frame production pallet.
+Similarly one can apply this to parachain as well.
+The detailed description of Call is present [`here`](https://paritytech.github.io/polkadot-sdk/master/pallet_nfts/pallet/enum.Call.html)
 
-A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
+Mint NFT =>
 
-A standalone version of this template is available for each release of Polkadot
-in the [Substrate Developer Hub Parachain
-Template](https://github.com/substrate-developer-hub/substrate-node-template/)
-repository. The parachain template is generated directly at each Polkadot
-release branch from the [Solochain Template in
-Substrate](https://github.com/paritytech/polkadot-sdk/tree/master/templates/solochain)
-upstream
+- Create a collection from which collection Id is genrated.
+- Call mint with collection id and mint_to
 
-It is usually best to use the stand-alone version to start a new project. All
-bugs, suggestions, and feature requests should be made upstream in the
-[Substrate](https://github.com/paritytech/polkadot-sdk/tree/master/substrate)
-repository.
+
+
+
+
 
 ## Getting Started
 
@@ -30,24 +29,6 @@ Use the following command to build the node without launching it:
 ```sh
 cargo build --release
 ```
-
-### Embedded Docs
-
-After you build the project, you can use the following command to explore its
-parameters and subcommands:
-
-```sh
-./target/release/solochain-template-node -h
-```
-
-You can generate and view the [Rust
-Docs](https://doc.rust-lang.org/cargo/commands/cargo-doc.html) for this template
-with this command:
-
-```sh
-cargo +nightly doc --open
-```
-
 ### Single-Node Development Chain
 
 The following command starts a single-node development chain that doesn't
